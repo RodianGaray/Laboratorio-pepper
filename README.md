@@ -38,27 +38,19 @@ Evidencia:
 
 ---
 
-##  Cuarto Punto: Documento en Overleaf
-Se elaboró un documento en Overleaf con todos los pasos, capturas y código.  
-Evidencia:  
-![Overleaf](images/github.png)
-
----
-
-## Quinto Punto: GitHub y Trabajo Colaborativo
-- Se trabajó en ramas por integrante.  
-- Se unificó el trabajo en la rama `main`.  
-- Se documentó todo en este README.  
-
----
-
 ## Instrucciones de ejecución
 
 ### 1. Ejecución de Pepper
 ```bash
 python scripts/pepper_expo.py
-Chatbot
+```
+###Chatbot
+```bash
 python scripts/chatbot.py
-Dashboard
+````
+###Dashboard
+```bash
 streamlit run scripts/dashboard.py
+````
+
 
