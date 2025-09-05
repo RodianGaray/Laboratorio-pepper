@@ -52,5 +52,13 @@ python scripts/chatbot.py
 ```bash
 streamlit run scripts/dashboard.py
 ````
+## Autores
+- **Rodian Daniel Garay Peralta**  
+- **Mariana Lombana Rojas**
+
+Docente: *Diego Alejandro Barragán Vargas*  
+Universidad Santo Tomás  
+5 de septiembre de 2025
+
 
 
