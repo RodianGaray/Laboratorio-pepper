@@ -264,7 +264,7 @@ Cuarto Punto: Documento en Overleaf
 Este documento está en la carpeta /doc/ y contiene todos los pasos y evidencias.
 
 Evidencia:
-[Ver documento](docs/archivo.pdf)
+[Ver documento](Laboratorio_pepper.pdf)
 
 
 
