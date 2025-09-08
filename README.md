@@ -63,11 +63,13 @@ def main(session):
 
     # --- PRIMER TEMA: INTELIGENCIA ARTIFICIAL GENERATIVA ---
     tablet.showImage("http://198.18.0.1/apps/multimedia/diapositiva2.png")
-    tts.say("En primer lugar, los modelos de inteligencia artificial generativa multimodal integran texto, imágenes, voz y video, creando contenidos innovadores y realistas.")
-    time.sleep(5)
+    tts.say("En primer lugar, hablemos de la inteligencia artificial generativa multimodal. ")
+    tts.say("La inteligencia artificial generativa multimodal combina múltiples tipos de datos como texto, imágenes y audio, para crear contenido innovador y transformador.")
+    time.sleep(6)
 
     tablet.showImage("http://198.18.0.1/apps/multimedia/diapositiva2b.png")
-    tts.say("Estos modelos ya se aplican en la educación, el arte y la investigación científica, optimizando procesos y reduciendo tiempos de desarrollo.")
+    tts.say("Estos modelos combinan texto, imagen y voz, generando experiencias enriquecidas e innovadoras que amplían las fronteras de la creatividad y la interacción humana tecnológica.")
+    tts.say("Su importancia radica en que impulsan la inteligencia artificial actual, revolucionando aplicaciones en educación, arte e investigación.")
     motion.setAngles("HeadYaw", 0.3, 0.2)
     time.sleep(2)
     motion.setAngles("HeadYaw", -0.3, 0.2)
@@ -75,11 +77,13 @@ def main(session):
 
     # --- SEGUNDO TEMA: METAVERSO Y GAMIFICACIÓN ---
     tablet.showImage("http://198.18.0.1/apps/multimedia/diapositiva3.png")
-    tts.say("En segundo lugar, el metaverso y la gamificación permiten experiencias inmersivas en entornos virtuales, cambiando la forma en que aprendemos, trabajamos y jugamos.")
-    time.sleep(6)
+    tts.say("En segundo lugar, exploremos el metaverso y la gamificación.")
+    tts.say("El metaverso es un universo digital inmersivo donde convergen la realidad virtual y aumentada, transformando experiencias y potenciando nuevas formas de interacción y creatividad sin límites.")
+    time.sleep(7)
 
     tablet.showImage("http://198.18.0.1/apps/multimedia/diapositiva3b.png")
-    tts.say("Las aulas virtuales, las simulaciones empresariales y los videojuegos educativos ya son una realidad, generando motivación y aprendizaje más efectivo.")
+    tts.say("El metaverso potencia la gamificación al ofrecer experiencias inmersivas que aumentan la motivación y el aprendizaje, transformando la forma en que vivimos y trabajamos.")
+    tts.say("Sus componentes clave integran realidad aumentada, realidad virtual, inteligencia artificial y conectividad avanzada, creando entornos digitales innovadores.")
     motion.setAngles("LShoulderPitch", -0.3, 0.2)
     motion.setAngles("RShoulderPitch", -0.3, 0.2)
     time.sleep(3)
@@ -88,11 +92,13 @@ def main(session):
 
     # --- TERCER TEMA: BLOCKCHAIN Y CONTRATOS INTELIGENTES ---
     tablet.showImage("http://198.18.0.1/apps/multimedia/diapositiva4.png")
-    tts.say("Finalmente, blockchain y los contratos inteligentes permiten transacciones seguras y descentralizadas, eliminando intermediarios y garantizando confianza en procesos digitales.")
-    time.sleep(6)
+    tts.say("Finalmente, hablemos de blockchain y contratos inteligentes.")
+    tts.say("Blockchain es una tecnología descentralizada que garantiza transparencia, seguridad y confianza mediante registros inmutables y colaboración sin intermediarios.")
+    time.sleep(7)
 
     tablet.showImage("http://198.18.0.1/apps/multimedia/diapositiva4b.png")
-    tts.say("Estas tecnologías ya se utilizan en sistemas financieros, cadenas de suministro y administración pública, aportando transparencia y eficiencia.")
+    tts.say("El registro descentralizado funciona con nodos distribuidos que validan y almacenan datos de forma segura, promoviendo transparencia y autonomía en cada transacción digital.")
+    tts.say("La combinación de blockchain con contratos inteligentes asegura procesos confiables, transparentes y eficientes, transformando sectores como finanzas, cadenas de suministro y administración pública.")
     motion.setAngles("HeadPitch", 0.3, 0.2)
     time.sleep(2)
     motion.setAngles("HeadPitch", 0.0, 0.2)
@@ -111,6 +117,7 @@ if __name__ == "__main__":
         main(session)
     except RuntimeError:
         print("No se pudo conectar con Pepper.")
+
 
 ```
 ### Diapositivas mostradas:
